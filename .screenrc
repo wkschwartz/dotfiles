@@ -1,9 +1,10 @@
 # GNU Screen configuration file
 # Balaji S. Srinivasan <balajis@stanford.edu>
+# Further customizations by William Schwartz <wkschwartz@gmail.com>
 #
 # Notes
 # -----
-# 1. Modified to work with Emacs: C-t is the action command, not C-a. 
+# 1. Modified to work with Emacs: C-i is the action command, not C-a.
 # 2. To change the colors of the hardstatus line, change this line: 
 #       sorendition "+b +kG"  
 #    Example: blue (+b) highlight with black text (k) on a green background (G)
@@ -23,7 +24,7 @@ crlf                  off             # default: off
 hardcopy_append       on              # default: off
 startup_message       off             # default: on
 vbell                 off             # default: ???
-escape	"^Tt"                         # ctrl-A default interferes with emacs keybindings for terminal
+escape	"^Ii"                         # ctrl-A default interferes with emacs keybindings for terminal
 defutf8 on                            # unicode by default
 defscrollback         10000           # default: 100
 silencewait           15              # default: 30
